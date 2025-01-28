@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web Github</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-photo/long-hallway-with-row-servers-center_188544-26047.jpg?t=st=1738099752~exp=1738103352~hmac=05141a40c982a5fbd55c14240d83ec38ee5c04438f96b7d3d10bd17906512097&w=1380') center/cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .features {
+            padding: 4rem 0;
+        }
+
+        .features .card {
+            transition: transform 0.3s;
+        }
+
+        .features .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Electiva 2</h1>
+        <p>Crear repositorio y pagina web usando github.io</p>
+        <a href="#features" class="btn btn-primary btn-lg mt-3">Repositorio Github</a> 
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card p-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">DevOps</h5>
+                        <p class="card-text">Es un conjunto de prácticas y filosofías que busca integrar y alinear los procesos de desarrollo de software y operaciones de TI.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Github</h5>
+                        <p class="card-text">Es una plataforma en la nube que permite a los desarrolladores crear, almacenar, compartir y trabajar en conjunto en proyectos de software. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Github Pages</h5>
+                        <p class="card-text">Es un servicio gratuito que permite crear y alojar sitios web estáticos en la nube.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; Creado por Gabriel Nuñez Medina 2023-1871.</p>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
